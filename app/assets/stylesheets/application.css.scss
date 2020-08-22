@@ -22,13 +22,14 @@ h1, h2, h3{
 }
 
 body .navbar, .home-callout{
-  // Gradient provided by @_ighosh at uiGradients.com
+  /* Gradient provided by @_ighosh at uiGradients.com */
   background: #66ccff; /* Fall Back for old browsers */
   background: -webkit-linear-gradient(to right, #00c6ff , #0066ff); /* For Chrome 10-25, Safari 5.1-6 */ 
   background: linear-gradient(to right, #66ccff, #0066ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .home-callout{
+  /* Make the homepage have a large amount of padding (open space) and make the text white */ 
   color: white;
   margin-top: -20px;
   padding-top: 50px;
@@ -36,5 +37,24 @@ body .navbar, .home-callout{
 }
 
 .navbar{
+  /* Get rid of the border around the navigation bar*/ 
   border: none;
+}
+
+.navbar-default .navbar-brand{
+  color: white;
+}
+
+.navbar-default .navbar-brand:hover{
+  color: white;
+  opacity: 0.75;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  color: white;
+  opacity: 0.75;
 }
