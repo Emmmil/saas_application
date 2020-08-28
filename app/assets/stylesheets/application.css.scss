@@ -56,6 +56,17 @@ body .navbar, .home-callout{
   }
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle{
+  border: 2px solid white;
+  &:hover, &:focus{
+    background-color: #66ccff;
+  }
+}
+
 .navbar-brand{
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
