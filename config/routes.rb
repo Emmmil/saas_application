@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   get 'faqs', to: 'pages#faqs'
   resources :contacts
+  get 'contact-us', to: 'contacts#new'
 end
