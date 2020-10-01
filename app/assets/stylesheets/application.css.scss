@@ -41,6 +41,11 @@ body .navbar, .home-callout{
   padding-bottom: 100px;
 }
 
+// Gets rid of the notice for signing in and out from devise. 
+.alert-notice{
+  display:none;
+}
+
 .navbar{
   /* Get rid of the border around the navigation bar*/ 
   border: none;
