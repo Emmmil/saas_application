@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   root to: 'pages#home'
   get 'about', to: 'pages#about'
   get 'faqs', to: 'pages#faqs'
+  get "memberships", to: 'pages#memberships'
   resources :contacts, only: :create
   get 'contact-us', to: 'contacts#new', as: 'new_contact'
 end

@@ -1,0 +1,6 @@
+Memberships
+* User should see link for what plan they want to use at the sign up form
+* If they choose basic
+    -> Then bring them to the current sign up page without credit card info
+* Else
+    -> Then bring the customer to the new sign up page with credit card info
