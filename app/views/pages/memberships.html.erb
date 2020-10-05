@@ -6,7 +6,7 @@
         <h4>Sign up for free and gain access to the basic resources that this website has to offer!
         This includes being able to check out the website and sign in!</h4>
         <br/>
-        <%= link_to "Sign up with Basic", new_user_registration_path(plan: @basic_plan) , class: 'btn btn-primary btn-lg btn-block' %>
+        <%= link_to "Sign up with Basic", new_user_registration_path(plan: @basic_plan.id) , class: 'btn btn-primary btn-lg btn-block' %>
       </div>
     </div>
     <div class="col-md-6">
@@ -15,7 +15,7 @@
         <h4>Sign up for a low $10 a month to be able to gain access to the same resources that the
         free basic plan has but being able to give me 10 dollars per month!</h4>
         <br/>
-        <%= link_to "Sign up with Pro", new_user_registration_path(plan: @pro_plan) , class: 'btn btn-success btn-lg btn-block' %>
+        <%= link_to "Sign up with Pro", new_user_registration_path(plan: @pro_plan.id) , class: 'btn btn-success btn-lg btn-block' %>
       </div>
     </div>
   </div>
