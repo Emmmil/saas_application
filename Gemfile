@@ -40,6 +40,8 @@ gem 'hirb', '0.7.3'
 # Add devise gem for user membership/authenticator
 gem 'devise', '4.2.0'
 
+# Add stripe gem for credit card/ debit card payments
+gem 'stripe', '1.48.0'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
