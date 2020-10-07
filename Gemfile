@@ -43,6 +43,9 @@ gem 'devise', '4.2.0'
 # Add stripe gem for credit card/ debit card payments
 gem 'stripe', '1.48.0'
 
+# Install Figaro for ENV variables
+gem 'figaro', '1.1.1'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '1.3.13'
