@@ -4,3 +4,15 @@ Memberships
     -> Then bring them to the current sign up page without credit card info
 * Else
     -> Then bring the customer to the new sign up page with credit card info
+    
+    
+
+Stripe Integration
+* Users should have a stripe customer token in the users table. 
+* Javascript should prevent Pro form from submitting, when user fills it out.
+Then it should send card into to Stripe. Stripe will return with a card token.
+* Javascript should send user fields and card token to the rails app. 
+The rails app should then validate the user fields. Rails app will note whether plan 1 or plan 2. 
+*Once validated, Rails should send user info (email, plan id) and card token to the Stripe server. 
+Stripe will then create a subscription and sen dback customer token. Rails should save the customer
+token from stripe and user infromation to the database. 
