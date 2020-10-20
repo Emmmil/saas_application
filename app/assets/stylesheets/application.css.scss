@@ -43,7 +43,7 @@ body .navbar, .home-callout{
 
 // Gets rid of the notice for signing in and out from devise. 
 .alert-notice{
-  display:none;
+  display: block;
 }
 
 .navbar{
@@ -88,4 +88,15 @@ body .navbar, .home-callout{
 // Membership page css
 .membership-signup-links{
   margin-top: 80px;
+}
+
+.flash-container {
+  position: absolute;
+  width: 100%;
+}
+.alert-notice, .alert-alert {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  margin-top: -14px;
 }
